@@ -7,5 +7,10 @@ used along with `serverless-webpack` and `ts-loader`.
 
 ## How to install
 
-You can use this repository with `sls create --template-url https://github.com/stesie/azure-nodejs-typescript.git`.
+You can use this repository with
+
+```
+sls create --template-url https://github.com/stesie/azure-nodejs-typescript --name my-new-service
+```
+
 Afterwards run `npm install` or `yarn install` to install the necessary dependencies.
